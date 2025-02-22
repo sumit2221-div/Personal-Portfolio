@@ -11,13 +11,7 @@ function Footer() {
           &copy; {new Date().getFullYear()} Sumit Sonar. All rights reserved.
         </div>
 
-        {/* Navigation Links */}
-        <nav className="flex space-x-6 text-gray-300 text-sm">
-          <a href="/" className="hover:text-green-400 transition duration-300">Home</a>
-          <a href="/about" className="hover:text-green-400 transition duration-300">About</a>
-          <a href="/contact" className="hover:text-green-400 transition duration-300">Contact</a>
-        </nav>
-
+      
         {/* Social Media Icons */}
         <div className="flex space-x-4 mt-3 md:mt-0">
           <a href="https://github.com/sumit2221-div" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-white transition-transform transform hover:scale-110">
