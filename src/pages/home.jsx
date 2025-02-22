@@ -5,13 +5,9 @@ import myphoto from '../assets/profile-pic.png';
 
 function Home() {
     return (
-        <div className="flex justify-center items-center h-screen bg-black text-green-400 font-mono relative overflow-hidden">
+        <div className="flex justify-center items-center h-screen bg-transparent text-green-400 font-mono relative overflow-hidden">
             
-            {/* Glowing Background Animation */}
-            <div className="absolute inset-0 bg-black">
-                <div className="absolute w-[400px] h-[400px] bg-green-400 rounded-full blur-[180px] opacity-20 top-1/4 left-1/4 animate-pulse"></div>
-                <div className="absolute w-[300px] h-[300px] bg-green-500 rounded-full blur-[160px] opacity-20 bottom-1/4 right-1/4 animate-pulse"></div>
-            </div>
+            
 
             {/* Main Container */}
             <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-12 p-5 md:p-10 z-10">
